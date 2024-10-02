@@ -1,0 +1,19 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    position: relative;
+    animation-name: test;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes test{
+    0%{background-color: cadetblue; left: 0px; top: 0px;}
+    25%{background-color: rgb(95, 160, 112); left: 500px; top: 0px;}
+    50%{background-color: rgb(160, 95, 144); left: 500px; top: 500px;}
+    75%{background-color: rgb(160, 147, 95); left: 0px; top: 500px;}
+    100%{background-color: rgb(160, 95, 106); left: 0px; top: 0px;}
+}
